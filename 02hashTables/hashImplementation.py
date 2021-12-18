@@ -26,11 +26,14 @@ class HashTable :
     def set(self,key,value):       
         
         hash = self.get_hash_value(key)
-    
+        
         if self.data[hash]==[]:
             self.data[hash]=[key,value]
         elif self.data[hash][0]==key:
             print("Given key is already present in the hashmap, please enter a different key")
+        #TODO: creating a linked list for a hashmap of lesser size
+        else:
+            self.data[hash].append([key,value])
   
 
     # for fetching the value based on the given key
@@ -54,7 +57,7 @@ class HashTable :
 
 
 
-some_hash = HashTable(50)
+some_hash = HashTable(3)
 some_hash.set('grapes',10000)
 some_hash.set('grape',10000)
 some_hash.set('apples',222)
@@ -63,5 +66,5 @@ print(some_hash.data)                           # not a good way to access class
 # print(some_hash.get('grapes'))
 # print(some_hash.get('grap'))
 # print(some_hash.get('gr'))
-some_hash.remove('mango')
-print(some_hash.data) 
+# some_hash.remove('mango')
+# print(some_hash.data) 

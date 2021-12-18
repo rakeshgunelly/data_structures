@@ -41,26 +41,27 @@ class HashTable :
             if self.data[hash][0]==key:
                 return self.data[hash][1]
 
-        return "Given Key has no corresponding value pair"
+        return "Given Key has no corresponding Value pair"
 
     
     # For removing a [key,value] pair in a hash map
     def remove(self,key):
-        hash = self._hash(key)
-        reference = self.data[hash]
+        hash = self.get_hash_value(key)
 
-        for i in range (len(reference)):
-            if reference[i][0]==key:
-                reference.pop(i)
+        if not (self.data[hash] == []):
+            if self.data[hash][0]==key:
+                del self.data[hash]      
+
+
 
 some_hash = HashTable(50)
 some_hash.set('grapes',10000)
 some_hash.set('grape',10000)
 some_hash.set('apples',222)
 some_hash.set('mango',111)
-# print(some_hash.data)                           # not a good way to access class data, using here only for verification
+print(some_hash.data)                           # not a good way to access class data, using here only for verification
 # print(some_hash.get('grapes'))
 # print(some_hash.get('grap'))
 # print(some_hash.get('gr'))
-#some_hash.remove('mango')
-#print(some_hash.data) 
+some_hash.remove('mango')
+print(some_hash.data) 

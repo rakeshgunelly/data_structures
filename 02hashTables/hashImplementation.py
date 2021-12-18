@@ -33,7 +33,7 @@ class HashTable :
             print("Given key is already present in the hashmap, please enter a different key")
   
 
-    # or fetching the value based on the given key
+    # for fetching the value based on the given key
     def get(self,key):
         hash = self.get_hash_value(key)
 

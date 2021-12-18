@@ -1,4 +1,4 @@
-#Hash map implementation in Python
+# Hash map implementation in Python
 
 
 class HashTable :
@@ -14,7 +14,7 @@ class HashTable :
         hash = 0
 
         for i in range(0,len(key)-1):
-            hash = (hash + ord(key[i])*i)%(len(self.data))   #ord() function return unicode of a given character
+            hash = (hash + ord(key[i])*i)%(len(self.data))   # ord() function return unicode of a given character
         
         return hash
 
@@ -33,12 +33,13 @@ class HashTable :
             print("Given key is already present in the hashmap, please enter a different key")
   
 
-    #For fetching the value based on the given key
+    # or fetching the value based on the given key
     def get(self,key):
         hash = self.get_hash_value(key)
-        print(hash)
-        if self.data[hash][0]==key:
-            return self.data[hash][1]
+
+        if not (self.data[hash] == []):
+            if self.data[hash][0]==key:
+                return self.data[hash][1]
 
         return "Given Key has no corresponding value pair"
 
@@ -57,8 +58,9 @@ some_hash.set('grapes',10000)
 some_hash.set('grape',10000)
 some_hash.set('apples',222)
 some_hash.set('mango',111)
-print(some_hash.data)                           # not a good way to access class data, using here only for verification
-print(some_hash.get('grapes'))
-print(some_hash.get('grap'))
+# print(some_hash.data)                           # not a good way to access class data, using here only for verification
+# print(some_hash.get('grapes'))
+# print(some_hash.get('grap'))
+# print(some_hash.get('gr'))
 #some_hash.remove('mango')
 #print(some_hash.data) 

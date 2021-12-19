@@ -31,12 +31,17 @@ Only one valid answer exists.
 
 # soultion goes as below
 class Solution:
-    def twoSum(self, nums,target: int):
-        for i in range(0,len(nums)-1):
-            if nums[i]+nums[i+1] == target:
-                return [i,i+1]
+    def twoSum(self, nums, target) :
+        res = {}
+        for idx, val in enumerate(nums):
+            res[idx]=target-val
+            remn = target- val
+            print(res)
+            if remn in res:
+                return [res[remn], idx]
+                res[val] = idx
 
-nums = [2,7,11,15]
-target = 9
+nums = [3,2,3]
+target = 6
 first = Solution()
 print(first.twoSum(nums,target))

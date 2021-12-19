@@ -25,7 +25,7 @@ def first_reccurring_item(input):
 
 
 
-# Using hashmaps:
+# Using hashmaps: Here time complexity is O(n) as we are looping thrigth the elements once
 
 def first_reccurring_item2(input):
     mydict = {}

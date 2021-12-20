@@ -32,14 +32,12 @@ Only one valid answer exists.
 # soultion goes as below
 class Solution:
     def twoSum(self, nums, target) :
-        res = {}
+        prevMap = {} # val : index
         for idx, val in enumerate(nums):
-            res[idx]=target-val
-            remn = target- val
-            print(res)
-            if remn in res:
-                return [res[remn], idx]
-                res[val] = idx
+            diff = target-val
+            if diff in prevMap:
+                return [prevMap[diff], idx]
+            prevMap[val] = idx
 
 nums = [3,2,3]
 target = 6

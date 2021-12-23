@@ -10,7 +10,7 @@ class Node():
 
 
 class LinkedList():
-    def __init__(self,head):
+    def __init__(self):
         self.head = None
         self.tail = None
 
@@ -27,8 +27,14 @@ class LinkedList():
             self.length += 1
 
     def preappend(self,data):
-        pass
+        prepend_node = Node(data)
 
+        prepend_node.next = self.head
+        self.head = prepend_node
+
+        self.length += 1
+
+        
     def insert(self,data):
         pass
 
@@ -40,3 +46,10 @@ class LinkedList():
 
     def reverse(self):
         pass
+
+
+
+newlinkedList = LinkedList()
+newlinkedList.append(10)
+newlinkedList.append(5)
+newlinkedList.append(6)

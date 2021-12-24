@@ -91,8 +91,18 @@ class LinkedList():
         
         print(linked_list)
 
+    # This is of O(m) time complexity as we are looping througth the linked list once 
     def reverse(self):
-        pass
+        prev = None
+        self.tail = self.head 
+
+        while self.head != None:
+          temp = self.head
+          self.head = self.head.next
+          temp.next = prev
+          prev = temp  
+          
+        self.head = temp
 
 
 

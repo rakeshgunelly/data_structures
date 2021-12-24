@@ -35,14 +35,21 @@ class LinkedList():
         self.length += 1
 
         
-    def insert(self,data):
+    def insert(self,index,value):
         pass
 
     def delete(self,data):
         pass
 
-    def print_linked_list(self,data):
-        pass
+    def print_linked_list(self):
+        linked_list = []
+        current_node = self.head
+
+        while (self.head != None):
+            linked_list.append(current_node.data)
+            current_node = current_node.next
+        
+        print(linked_list)
 
     def reverse(self):
         pass

@@ -64,8 +64,17 @@ class LinkedList():
 
         return current_node
 
-    def delete(self,data):
-        pass
+    def delete(self,index):
+
+        if 0 >= index >= self.length:
+            print("Please enter an index with in the range of the length of the linked list")
+            return
+
+        leader = self.traverse_to_index(index-1)
+        unwanted_node = self.traverse_to_index(index)
+        leader.next = unwanted_node.next
+        self.length -=1
+        self.print_linked_list()
 
     def print_linked_list(self):
         linked_list = []
@@ -85,7 +94,10 @@ class LinkedList():
 newlinkedList = LinkedList()
 newlinkedList.append(12)
 newlinkedList.append(15)
-newlinkedList.append(18)
-newlinkedList.insert(2,99)
-newlinkedList.insert(100,88)
+newlinkedList.append(22)
+newlinkedList.append(33)
+newlinkedList.append(44)
+# newlinkedList.insert(2,99)
+# newlinkedList.insert(3,88)
 newlinkedList.print_linked_list()
+newlinkedList.delete(2)

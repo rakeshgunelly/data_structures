@@ -14,6 +14,7 @@ class LinkedList():
         self.head = None
         self.tail = None
 
+    # This is of O(1) time complexity as there are no loops
     def append(self,data):
         new_node = Node(data)
 
@@ -26,6 +27,7 @@ class LinkedList():
             self.tail = new_node
             self.length += 1
 
+    # This is of O(1) time complexity as there are no loops
     def preappend(self,data):
         prepend_node = Node(data)
 
@@ -34,7 +36,7 @@ class LinkedList():
 
         self.length += 1
 
-        
+    # This is of O(m) time complexity as we are looping througth the linked list once in traverse_to_index method
     def insert(self,index,data):
         
 
@@ -53,6 +55,7 @@ class LinkedList():
         self.print_linked_list()
 
 
+    # This is of O(m) time complexity as we are looping througth the linked list once
     def traverse_to_index(self,index):
             
         counter = 0
@@ -64,6 +67,7 @@ class LinkedList():
 
         return current_node
 
+    # This is of O(m) time complexity as we are looping througth the linked list once in traverse_to_index method
     def delete(self,index):
 
         if 0 >= index >= self.length:
@@ -76,6 +80,7 @@ class LinkedList():
         self.length -=1
         self.print_linked_list()
 
+    # This is of O(m) time complexity as we are looping througth the linked list once 
     def print_linked_list(self):
         linked_list = []
         current_node = self.head

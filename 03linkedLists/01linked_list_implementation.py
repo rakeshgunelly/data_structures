@@ -35,8 +35,34 @@ class LinkedList():
         self.length += 1
 
         
-    def insert(self,index,value):
-        pass
+    def insert(self,index,data):
+        
+
+        if index >= self.length:
+            self.append(data)
+            print("The index is higher than the length of the linked list, hence the node is appended to the linked list")
+            return
+
+        new_node = Node(data)
+        leader = self.traverse_to_index(index-1)
+        holding_pointer = leader.next
+        leader.next = new_node
+        new_node.next = holding_pointer
+        self.length+=1
+
+        self.print_linked_list()
+
+
+    def traverse_to_index(self,index):
+            
+        counter = 0
+        current_node = self.head
+
+        while(counter!= index):
+            current_node = current_node.next
+            counter+=1
+
+        return current_node
 
     def delete(self,data):
         pass
@@ -45,7 +71,7 @@ class LinkedList():
         linked_list = []
         current_node = self.head
 
-        while (self.head != None):
+        while (current_node != None):
             linked_list.append(current_node.data)
             current_node = current_node.next
         
@@ -57,6 +83,9 @@ class LinkedList():
 
 
 newlinkedList = LinkedList()
-newlinkedList.append(10)
-newlinkedList.append(5)
-newlinkedList.append(6)
+newlinkedList.append(12)
+newlinkedList.append(15)
+newlinkedList.append(18)
+newlinkedList.insert(2,99)
+newlinkedList.insert(100,88)
+newlinkedList.print_linked_list()

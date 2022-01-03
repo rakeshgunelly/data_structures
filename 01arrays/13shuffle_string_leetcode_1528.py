@@ -37,3 +37,12 @@ class Solution:
             resultString += i
             
         return resultString
+
+
+# Solution with string methods
+class Solution:
+    def restoreString(self, s, indices):
+        ans=['']*len(s)
+        for i,j in enumerate(s):
+            ans[indices[i]]=j
+        return ''.join(ans)

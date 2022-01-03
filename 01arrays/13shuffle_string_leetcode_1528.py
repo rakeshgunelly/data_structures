@@ -25,6 +25,8 @@
 # 0 <= indices[i] < n
 # All values of indices are unique.
 
+# Time Submitted     Status      Runtime    Memory      Language
+# 01/03/2022 21:38	 Accepted	 87 ms	    14.2 MB	    python3
 class Solution:
     def restoreString(self, s, indices):
         result = [0]*len(indices)
@@ -37,6 +39,11 @@ class Solution:
             resultString += i
             
         return resultString
+
+
+# Time Submitted      Status      Runtime     Memory      Language
+# 01/03/2022 21:45	Accepted	52 ms	    14.3 MB	    python3
+
 
 
 # Solution with string methods

@@ -22,7 +22,7 @@
 
 
 class Solution:
-    def maxProductDifference(self, nums: List[int]) -> int:
+    def maxProductDifference(self, nums) -> int:
         
         nums.sort()
         maximumProduct = nums[len(nums)-1]*nums[len(nums)-2]

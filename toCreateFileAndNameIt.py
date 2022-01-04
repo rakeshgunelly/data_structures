@@ -3,7 +3,7 @@ import os
 
 rawFileName = 'XYZ ABC DEF GHI JKL MNO PQR'
 inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'Number'+'.py'
-fileName =inputString.lower()
+fileName ='fileNumeber'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

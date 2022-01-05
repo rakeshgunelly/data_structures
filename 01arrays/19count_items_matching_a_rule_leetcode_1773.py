@@ -29,7 +29,8 @@
 # ruleKey is equal to either "type", "color", or "name".
 # All strings consist only of lowercase letters.
 
-
+# Time Submitted      Status      Runtime     Memory      Language
+# 01/05/2022 11:46	Accepted	523 ms	    20.6 MB	    python3
 class Solution:
     def countMatches(self, items, ruleKey: str, ruleValue: str) -> int:
         
@@ -47,4 +48,18 @@ class Solution:
                 
         return count
             
-        
+
+
+# Time Submitted      Status      Runtime     Memory      Language
+# 01/05/2022 11:52	Accepted	451 ms	    20.4 MB	    python3
+
+# using dictionaries 
+
+class Solution:
+    def countMatches(self, items, ruleKey: str, ruleValue: str) -> int:
+        count=0
+        dic={"color":1,"type":0,"name":2}
+        for i in range(len(items)):
+            if items[i][dic[ruleKey]]==ruleValue:
+                count+=1
+        return count

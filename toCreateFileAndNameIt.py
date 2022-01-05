@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'XYZ ABC DEF GHI JKL MNO PQR'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'Number'+'.py'
-fileName ='fileNumeber'+inputString.lower()
+rawFileName = 'Count Items Matching a Rule'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1773'+'.py'
+fileName ='19'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

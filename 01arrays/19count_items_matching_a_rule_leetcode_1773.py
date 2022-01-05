@@ -31,7 +31,7 @@
 
 
 class Solution:
-    def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
+    def countMatches(self, items, ruleKey: str, ruleValue: str) -> int:
         
         ruleKeys = ['type','color','name']
         ruleKeyIndex = 0

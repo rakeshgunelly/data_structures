@@ -44,6 +44,9 @@
 # 0 <= nums[i] <= 100
 # 0 <= index[i] <= i
 
+# Time Submitted    Status      Runtime     Memory      Language
+# 01/05/2022 12:04	Accepted	50 ms	    14.2 MB	    python3
+
 class Solution:
     def createTargetArray(self, nums, index):
         targetArray = []
@@ -53,3 +56,24 @@ class Solution:
             
         return targetArray
         
+
+
+# Time Submitted    Status      Runtime     Memory      Language
+# 01/05/2022 12:11	Accepted	57 ms	    14.1 MB	    python3
+
+# without inbuilt functions 
+
+class Solution:
+    def createTargetArray(self, nums, index):
+        oldans = [nums[0]]
+        lastindex = index[0]
+        if len(index) == 1:
+            return oldans
+        for i in range(1,len(index)):
+            if index[i] > lastindex:
+                newans = oldans + [nums[i]]
+            else:
+                newans = oldans[:index[i]] + [nums[i]] + oldans[index[i]:]
+            oldans = newans
+            lastindex = max(index[i],lastindex,len(oldans))
+        return oldans

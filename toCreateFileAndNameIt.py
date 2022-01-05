@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Count Items Matching a Rule'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1773'+'.py'
-fileName ='19'+inputString.lower()
+rawFileName = 'Create Target Array in the Given Order'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1389'+'.py'
+fileName ='20'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

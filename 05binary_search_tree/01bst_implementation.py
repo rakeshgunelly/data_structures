@@ -52,7 +52,28 @@ class BinarySearchTree():
                 
         return False
 
-    
+    def remove(self,value):
+        if self.root == None:
+            return False
+        currentNode = self.root
+        parentNode = None
+        while(currentNode):
+            if(value<currentNode.value):
+                parentNode = currentNode
+                currentNode = currentNode.left
+            elif(value>currentNode.value):
+                parentNode = currentNode
+                currentNode = currentNode.right
+            elif (currentNode.value == value):
+                if(currentNode.right == None):
+                    if(parentNode == None):
+                        self.root = currentNode.left
+                    else:
+                        pass
+
+        
+
+
     def printTree(self):
         if self.root != None:
             self.treeTraversal(self.root)

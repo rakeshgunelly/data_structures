@@ -31,10 +31,24 @@ class Stack():
     def pop(self):
         if(self.top == None):
             return None
-
+        
         self.top = self.top.next
         self.length -= 1
+
+        if self.length==0:
+            self.bottom = None
+
+        return 
         
+    def printStack(self):
+
+        temp = self.top
+
+        while(temp!= None):
+            print(temp.data,end = '-->')
+            temp=temp.next
+
+        print()
 
 
 

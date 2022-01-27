@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Number of Students Doing Homework at a Given Time'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1450'+'.py'
-fileName ='21'+inputString.lower()
+rawFileName = 'Check If a Word Occurs As a Prefix of Any Word in a Sentence'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1455'+'.py'
+fileName ='06'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 
@@ -14,7 +14,7 @@ path  = 'D:\DS_Algo\DS_Programs'
   
 with open(os.path.join(path, fileName), 'w') as fp:
     
-    fp.write("# "+fileName)
+    fp.write("# "+rawFileName)
 
 print("File with custom name "+ fileName + ' is created')
 

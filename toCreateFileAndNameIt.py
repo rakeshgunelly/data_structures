@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Check If a Word Occurs As a Prefix of Any Word in a Sentence'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1455'+'.py'
-fileName ='06'+inputString.lower()
+rawFileName = 'Rotate String'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'796'+'.py'
+fileName ='07'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

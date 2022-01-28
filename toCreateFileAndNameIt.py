@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Rotate String'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'796'+'.py'
-fileName ='07'+inputString.lower()
+rawFileName = 'Maximum Repeating Substring'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1668'+'.py'
+fileName ='08'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

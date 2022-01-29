@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Repeated Substring Pattern'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'459'+'.py'
-fileName ='09'+inputString.lower()
+rawFileName = 'Subtract the Product and Sum of Digits of an Integer'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1281'+'.py'
+fileName ='10'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Maximum Repeating Substring'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1668'+'.py'
-fileName ='08'+inputString.lower()
+rawFileName = 'Repeated Substring Pattern'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'459'+'.py'
+fileName ='09'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

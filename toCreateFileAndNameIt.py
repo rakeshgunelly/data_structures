@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Subtract the Product and Sum of Digits of an Integer'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1281'+'.py'
-fileName ='10'+inputString.lower()
+rawFileName = 'A Number After a Double Reversal'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2119'+'.py'
+fileName ='12'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

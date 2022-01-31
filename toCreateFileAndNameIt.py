@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'A Number After a Double Reversal'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2119'+'.py'
-fileName ='12'+inputString.lower()
+rawFileName = 'Split a String in Balanced Strings'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1221'+'.py'
+fileName ='13'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

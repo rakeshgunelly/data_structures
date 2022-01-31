@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Split a String in Balanced Strings'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1221'+'.py'
-fileName ='13'+inputString.lower()
+rawFileName = 'Goal Parser Interpretation'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1678'+'.py'
+fileName ='14'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

@@ -20,7 +20,7 @@
 
 # The given address is a valid IPv4 address.
 
-import regex as re
+import  re
 
 def defangIPaddr(self, address: str) -> str:
     return address.replace('.', '[.]')

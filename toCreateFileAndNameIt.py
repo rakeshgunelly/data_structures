@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Remove Vowels from a String'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1119'+'.py'
-fileName ='18'+inputString.lower()
+rawFileName = 'Valid Anagram'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'242'+'.py'
+fileName ='19'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

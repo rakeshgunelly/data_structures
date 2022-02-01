@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Single-Row Keyboard'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1165'+'.py'
-fileName ='15'+inputString.lower()
+rawFileName = 'Design HashMap'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'706'+'.py'
+fileName ='16'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

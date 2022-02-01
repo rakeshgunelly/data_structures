@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Defanging an IP Address'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1108'+'.py'
-fileName ='17'+inputString.lower()
+rawFileName = 'Remove Vowels from a String'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1119'+'.py'
+fileName ='18'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

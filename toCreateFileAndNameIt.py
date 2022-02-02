@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Sorting the Sentence'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1859'+'.py'
-fileName ='21'+inputString.lower()
+rawFileName = 'Destination City'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1436'+'.py'
+fileName ='22'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

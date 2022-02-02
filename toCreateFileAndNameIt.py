@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Valid Anagram'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'242'+'.py'
-fileName ='19'+inputString.lower()
+rawFileName = 'Valid Parentheses'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'20'+'.py'
+fileName ='20'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

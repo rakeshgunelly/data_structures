@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Valid Parentheses'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'20'+'.py'
-fileName ='20'+inputString.lower()
+rawFileName = 'Sorting the Sentence'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1859'+'.py'
+fileName ='21'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

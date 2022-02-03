@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Check if the Sentence Is Pangram'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1832'+'.py'
-fileName ='23'+inputString.lower()
+rawFileName = 'Find First Palindromic String in the Array'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2108'+'.py'
+fileName ='24'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Reverse Prefix of Word'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2000'+'.py'
-fileName ='26'+inputString.lower()
+rawFileName = 'Determine if String Halves Are Alike'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1704'+'.py'
+fileName ='27'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

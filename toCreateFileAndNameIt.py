@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Find First Palindromic String in the Array'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2108'+'.py'
-fileName ='24'+inputString.lower()
+rawFileName = 'To Lower Case'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'709'+'.py'
+fileName ='25'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Destination City'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1436'+'.py'
-fileName ='22'+inputString.lower()
+rawFileName = 'Check if the Sentence Is Pangram'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1832'+'.py'
+fileName ='23'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

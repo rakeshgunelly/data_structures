@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'To Lower Case'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'709'+'.py'
-fileName ='25'+inputString.lower()
+rawFileName = 'Reverse Prefix of Word'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2000'+'.py'
+fileName ='26'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

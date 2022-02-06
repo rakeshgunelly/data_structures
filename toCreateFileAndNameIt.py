@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Determine if String Halves Are Alike'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1704'+'.py'
-fileName ='27'+inputString.lower()
+rawFileName = 'Unique Number of Occurrences'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1207'+'.py'
+fileName ='28'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

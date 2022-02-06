@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Unique Number of Occurrences'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1207'+'.py'
-fileName ='28'+inputString.lower()
+rawFileName = 'Single Number'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'136'+'.py'
+fileName ='29'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

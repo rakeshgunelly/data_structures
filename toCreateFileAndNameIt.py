@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Palindrome Number'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'9'+'.py'
-fileName ='32'+inputString.lower()
+rawFileName = 'Longest Common Prefix'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'14'+'.py'
+fileName ='33'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

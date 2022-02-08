@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Count Number of Pairs With Absolute Difference K'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2006'+'.py'
-fileName ='30'+inputString.lower()
+rawFileName = 'Find Anagram Mappings'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'760'+'.py'
+fileName ='31'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

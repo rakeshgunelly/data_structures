@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Find Anagram Mappings'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'760'+'.py'
-fileName ='31'+inputString.lower()
+rawFileName = 'Palindrome Number'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'9'+'.py'
+fileName ='32'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

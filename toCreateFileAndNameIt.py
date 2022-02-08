@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Single Number'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'136'+'.py'
-fileName ='29'+inputString.lower()
+rawFileName = 'Count Number of Pairs With Absolute Difference K'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2006'+'.py'
+fileName ='30'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

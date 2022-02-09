@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Min Stack'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'155'+'.py'
-fileName ='34'+inputString.lower()
+rawFileName = 'Crawler Log Folder'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1598'+'.py'
+fileName ='35'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

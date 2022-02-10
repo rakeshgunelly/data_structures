@@ -43,4 +43,21 @@ class Solution:
             if d[key]>1:
                 return key
         
+from random import random
+class Solution:        
+    def repeatedNTimes(self, A):
+        while 1:
+            s = random.sample(A, 2)
+            if s[0] == s[1]:
+                return s[0]
+
+from collections import defaultdict
+class Solution:
+    def repeatedNTimes(self, nums):
+        d = defaultdict(int)
         
+        for num in nums:
+            if num in d.keys():
+                return num
+            else:
+                d[num] =1

@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Crawler Log Folder'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1598'+'.py'
-fileName ='35'+inputString.lower()
+rawFileName = 'N-Repeated Element in Size 2N Array'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'961'+'.py'
+fileName ='36'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

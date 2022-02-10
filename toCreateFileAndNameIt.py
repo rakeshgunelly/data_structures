@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Find N Unique Integers Sum up to Zero'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1304'+'.py'
-fileName ='37'+inputString.lower()
+rawFileName = 'Find Greatest Common Divisor of Array'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1979'+'.py'
+fileName ='38'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Find Greatest Common Divisor of Array'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1979'+'.py'
-fileName ='38'+inputString.lower()
+rawFileName = 'Matrix Diagonal Sum'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1572'+'.py'
+fileName ='39'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Replace All Digits with Characters'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1844'+'.py'
-fileName ='41'+inputString.lower()
+rawFileName = 'Delete Columns to Make Sorted'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'944'+'.py'
+fileName ='42'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Matrix Diagonal Sum'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1572'+'.py'
-fileName ='39'+inputString.lower()
+rawFileName = 'Number of Strings That Appear as Substrings in Word'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1967'+'.py'
+fileName ='40'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

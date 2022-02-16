@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Number of Strings That Appear as Substrings in Word'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1967'+'.py'
-fileName ='40'+inputString.lower()
+rawFileName = 'Replace All Digits with Characters'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1844'+'.py'
+fileName ='41'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

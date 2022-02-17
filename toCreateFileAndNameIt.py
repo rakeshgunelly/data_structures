@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Check if Word Equals Summation of Two Words'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1880'+'.py'
-fileName ='43'+inputString.lower()
+rawFileName = "Check if All A's Appears Before All B's"
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2124'+'.py'
+fileName ='44'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

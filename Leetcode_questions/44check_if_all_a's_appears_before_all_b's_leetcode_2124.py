@@ -32,3 +32,7 @@ class Solution:
     def checkString(self, s: str) -> bool:
         return ''.join(sorted(s))==s
 
+class Solution:
+    def checkString(self, s: str) -> bool:
+        return 'ba' not in s
+        

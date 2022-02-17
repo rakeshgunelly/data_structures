@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = 'Delete Columns to Make Sorted'
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'944'+'.py'
-fileName ='42'+inputString.lower()
+rawFileName = 'Check if Word Equals Summation of Two Words'
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1880'+'.py'
+fileName ='43'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

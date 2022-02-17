@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = "Check if All A's Appears Before All B's"
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2124'+'.py'
-fileName ='44'+inputString.lower()
+rawFileName = "Generate a String With Characters That Have Odd Counts"
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1374'+'.py'
+fileName ='45'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

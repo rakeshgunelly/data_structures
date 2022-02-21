@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = "Two Out of Three"
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2032'+'.py'
-fileName ='47'+inputString.lower()
+rawFileName = "Kth Distinct String in an Array"
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2053'+'.py'
+fileName ='48'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

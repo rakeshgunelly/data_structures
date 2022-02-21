@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = "Reverse Words in a String III"
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'557'+'.py'
-fileName ='46'+inputString.lower()
+rawFileName = "Two Out of Three"
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2032'+'.py'
+fileName ='47'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

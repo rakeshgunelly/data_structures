@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = "Kth Distinct String in an Array"
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'2053'+'.py'
-fileName ='48'+inputString.lower()
+rawFileName = "Sum of Unique Elements"
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1748'+'.py'
+fileName ='49'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

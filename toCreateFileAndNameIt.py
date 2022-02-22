@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = "High Five"
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1086'+'.py'
-fileName ='50'+inputString.lower()
+rawFileName = "Maximum Number of Balls in a Box"
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1742'+'.py'
+fileName ='51'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

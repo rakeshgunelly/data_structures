@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = "Maximum Number of Balls in a Box"
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1742'+'.py'
-fileName ='51'+inputString.lower()
+rawFileName = "Check if All Characters Have Equal Number of Occurrences"
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1941'+'.py'
+fileName ='52'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 

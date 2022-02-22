@@ -29,4 +29,9 @@ class Solution:
         if len(set(count.values()))==1:
             return True
         return False
-        
+
+
+# another solution
+class Solution:
+    def areOccurrencesEqual(self, s: str) -> bool:
+        return len(set(Counter(s).values())) == 1

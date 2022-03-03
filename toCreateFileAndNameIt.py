@@ -1,9 +1,9 @@
 import os
 
 
-rawFileName = "Check if All Characters Have Equal Number of Occurrences"
-inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'1941'+'.py'
-fileName ='52'+inputString.lower()
+rawFileName = "Backspace String Compare"
+inputString = '_'.join(rawFileName.split(' '))+'_leetcode_'+'844'+'.py'
+fileName ='54'+inputString.lower()
 
 path  = 'D:\DS_Algo\DS_Programs'
 
